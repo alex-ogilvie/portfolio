@@ -23,3 +23,8 @@ themeToggle.addEventListener('click', () => {
     localStorage.setItem('theme', newTheme);
     updateIcon(newTheme);
 });
+
+// Check for saved theme preference or default to light mode
+const currentTheme = localStorage.getItem('theme') || 'light';
+html.setAttribute('data-theme', currentTheme);
+updateIcon(currentTheme);
