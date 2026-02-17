@@ -9,6 +9,10 @@ main {
     flex: 1;
 }
 
+.hero {
+    padding: 5rem 0;
+}
+
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
