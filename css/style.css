@@ -108,7 +108,7 @@ main {
     height: 2px;
     background: #fff;
     transition: all 0.3s ease;
-    transform: translateX(-50%);
+    transform: translateX(-50%);    
 }
 
 .site-nav .nav-link:hover::after,
@@ -119,6 +119,10 @@ main {
 .site-nav .nav-link:hover,
 .site-nav .nav-link.active {
     color: #fff;
+}
+
+.site-nav .navbar-toggler {
+    filter: invert(100%) saturate(100%) sepia(100%);
 }
 
 /* Hero section with gradient */
