@@ -8,7 +8,7 @@ This website showcases my background, technical skills, and university projects,
 
 The portfolio is hosted using **GitHub Pages**.
 
-**Visit the website:** `https://<github-username>.github.io/<repository-name>/`
+**Visit the website:** `https://alex-ogilvie.github.io/web-portfolio/`
 
 ## About Me
 
