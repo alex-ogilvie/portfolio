@@ -46,13 +46,13 @@ To view the portfolio on your local machine:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/your-username/web-portfolio.git
    ```
 
 2. Navigate into the project directory:
 
    ```bash
-   cd <repository-directory>
+   cd web-portfolio
    ```
 
 3. Open `index.html` in your web browser.
