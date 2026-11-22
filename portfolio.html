@@ -1,138 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="View my portfolio of web development and software projects. Showcasing responsive websites, semantic HTML, CSS, Bootstrap, and programming work.">
-    <title>Portfolio - My Portfolio</title>
+    <meta name="description"
+        content="Alexander Ogilvie — Computer Science student at the University of Dundee. Explore software projects, technical skills and experience.">
+    <title>Projects | Alexander Ogilvie</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <script>
-        (function() {
-            const savedTheme = localStorage.getItem('theme') || 'light';
-            document.documentElement.setAttribute('data-theme', savedTheme);
-        })();
-    </script>
+    <script>(function () { const t = localStorage.getItem('theme') || 'light'; document.documentElement.setAttribute('data-theme', t); })();</script>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg site-nav fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">My Portfolio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation menu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <div class="container"><a class="navbar-brand" href="index.html">Alexander Ogilvie</a><button
+                    class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation menu"><span
+                        class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
-                                <i class="fas fa-moon"></i>
-                            </button>
-                        </li>
+                        <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link " href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="portfolio.html">Projects</a></li>
+                        <li class="nav-item"><button id="theme-toggle" class="theme-toggle"
+                                aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-
     <main>
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">PORTFOLIO</h1>
-                <p class="hero-text">
-                    Below is a selection of projects that demonstrate my skills in web design, front-end development, and software programming. Each project reflects my focus on clean structure, responsive layouts, and user-friendly design.
-                </p>
+                <h1 class="hero-title">PROJECTS</h1>
+                <p class="hero-text">A selection of individual and collaborative software projects from my Computer Science studies.</p>
+                <div class="social-links d-flex flex-wrap gap-2 justify-content-center" aria-label="Professional links">
+                    <a class="btn btn-outline-light" href="https://github.com/alex-ogilvie" target="_blank"
+                        rel="noopener noreferrer"><i class="fab fa-github me-2" aria-hidden="true"></i>GitHub</a><a
+                        class="btn btn-outline-light" href="https://www.linkedin.com/in/alexander-ogilvie-29313744b/" target="_blank"
+                        rel="noopener noreferrer"><i class="fab fa-linkedin me-2" aria-hidden="true"></i>LinkedIn</a><a
+                        class="btn btn-light" href="assets/Alexander-Ogilvie-CV.pdf" download><i
+                            class="fas fa-download me-2" aria-hidden="true"></i>Download CV</a></div>
             </div>
         </section>
-
         <section class="section">
             <div class="container">
-
-                <h2>MY PROJECTS</h2>
-                <p class="mb-5">
-                    These projects have been developed as part of coursework and independent practice. They showcase my ability to work with semantic HTML, CSS, Bootstrap, and programming concepts.
-                </p>
+                <h2 class="mb-2">SELECTED PROJECTS</h2>
+                <p class="mb-5">These projects demonstrate my experience with programming, algorithms, systems development and accessible web design.</p>
                 <div class="row">
-
-                    <!-- Project Card Start -->
                     <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card portfolio-card animate__animated animate__fadeInUp">
-                            <img src="./assets/images/webdev.webp" class="card-img-top" alt="Web Development Visual" loading="lazy">
-                            <div class="card-body">
-                                <h3 class="card-title">Personal Portfolio Website</h3>
-                                <p class="card-text">A fully responsive portfolio website built using semantic HTML and Bootstrap. Designed to showcase projects and demonstrate structured layout design.</p>
-                                <a href="index.html" class="btn btn-primary mt-auto" aria-label="Visit my personal portfolio">View Project</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project Card End -->
-
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card portfolio-card animate__animated animate__fadeInUp">
-                            <img src="./assets/images/java.webp" class="card-img-top" alt="Java Programming Visual" loading="lazy">
-                            <div class="card-body">
-                                <h3 class="card-title">Java Battleships Game</h3>
-                                <p class="card-text">A turn-based deduction game inspired by Battleships, created using Java to showcase skills learnt during lectures for my Introduction to Software Development module.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card portfolio-card animate__animated animate__fadeInUp">
-                            <img src="./assets/images/embeddedSystem.webp" class="card-img-top" alt="Raspberry Pi Connected to Computer" loading="lazy">
+                        <article class="card portfolio-card h-100"><img src="assets/images/webdev.webp"
+                                class="card-img-top" alt="" loading="lazy">
                             <div class="card-body d-flex flex-column">
-                                <h3 class="card-title">Embedded Competitive Memory Game</h3>
-                                <p class="card-text">A small machine to play a turn-based memory game using 2 Raspberry Pi's. Also with a JavaScript auto-updating leaderboard system to display player's and their wins created for an Embedded Systems module.</p>
+                                <p class="project-type">Python • Group project</p>
+                                <h3 class="card-title h5">Connect Four AI</h3>
+                                <p class="card-text">Implemented a search-based opponent using depth-five minimax, alpha-beta pruning and a heuristic evaluation of four-cell windows and centre-column control. Collaborated on comparison with a Random Forest opponent trained on 100,000 board positions; supports human-versus-AI and AI-versus-AI gameplay.</p>
+                                <p class="tech-tags mt-auto">Python · Jupyter Notebook · GitHub</p>
                             </div>
-                        </div>
+                        </article>
                     </div>
-
                     <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card portfolio-card animate__animated animate__fadeInUp">
-                            <img src="./assets/images/computer.webp" class="card-img-top" alt="Computer System Visual" loading="lazy">
+                        <article class="card portfolio-card h-100"><img src="assets/images/java.webp"
+                                class="card-img-top" alt="" loading="lazy">
                             <div class="card-body d-flex flex-column">
-                                <h3 class="card-title">Unix To-Do List Manager</h3>
-                                <p class="card-text">A command-line based bash script that allows users to create and manage to-do lists/ tasks, including features for archiving lists for a Unix Systems module.</p>
+                                <p class="project-type">Java • JavaFX • Group project</p>
+                                <h3 class="card-title h5">Social Media Messaging Application</h3>
+                                <p class="card-text">Designed chat and message classes for one-to-one and group conversations, timestamps, read/unread status and conversation management. Added keyword search and sorting by recent activity, collaborating through Git with teammates.</p>
+                                <p class="tech-tags mt-auto">Java · JavaFX · Java Collections · Git</p>
                             </div>
-                        </div>
+                        </article>
                     </div>
-
                     <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card portfolio-card animate__animated animate__fadeInUp">
-                            <img src="./assets/images/onlineShop.webp" class="card-img-top" alt="Online Shopping Preview" loading="lazy">
+                        <article class="card portfolio-card h-100"><img src="assets/images/computer.webp"
+                                class="card-img-top" alt="" loading="lazy">
                             <div class="card-body d-flex flex-column">
-                                <h3 class="card-title">Online Shopping Website</h3>
-                                <p class="card-text">A website that uses HTML, CSS, JS, PHP, and SQL to create an online shopping system where users may order or sell items, storing information in a database made for an Advanced Higher Computing project.</p>
+                                <p class="project-type">C • Individual project</p>
+                                <h3 class="card-title h5">User Hash Table</h3>
+                                <p class="card-text">Implemented a chained hash table for user records, supporting registration, lookup, password validation and loading records from file. Managed dynamic allocation and deallocation, including freeing all allocated memory.</p>
+                                <p class="tech-tags mt-auto">C · Hash tables · Manual memory management</p>
                             </div>
-                        </div>
+                        </article>
                     </div>
-                    
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <article class="card portfolio-card h-100"><img src="assets/images/java.webp"
+                                class="card-img-top" alt="" loading="lazy">
+                            <div class="card-body d-flex flex-column">
+                                <p class="project-type">Java • Swing • Individual project</p>
+                                <h3 class="card-title h5">Java Battleships-Style Game</h3>
+                                <p class="card-text">Developed a two-player game with randomly placed creatures and a computer opponent with targeting logic. Built the Swing interface, turn timer, scoring, hint system and file-based save/load functionality.</p>
+                                <p class="tech-tags mt-auto">Java · Swing · File persistence</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <article class="card portfolio-card h-100"><img src="assets/images/computer.webp"
+                                class="card-img-top" alt="" loading="lazy">
+                            <div class="card-body d-flex flex-column">
+                                <p class="project-type">Bash • Unix Systems • Group project</p>
+                                <h3 class="card-title h5">Command-Line To-Do List Manager</h3>
+                                <p class="card-text">Collaboratively developed a command-line task manager for creating, editing, deleting, completing and archiving tasks, including recurring tasks. Implemented sorting and filtering by due date, priority, tag and status using getopts, grep, sed and cut.</p>
+                                <p class="tech-tags mt-auto">Bash · Unix/Linux · Shell utilities</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <article class="card portfolio-card h-100"><img src="assets/images/webdev.webp"
+                                class="card-img-top" alt="" loading="lazy">
+                            <div class="card-body d-flex flex-column">
+                                <p class="project-type">HTML • CSS • Bootstrap</p>
+                                <h3 class="card-title h5">Accessible Portfolio Website</h3>
+                                <p class="card-text">Built a responsive, multi-page portfolio website using Bootstrap 5, semantic HTML, ARIA labels and alternative text to improve accessibility.</p>
+                                <p class="tech-tags mt-auto">HTML · CSS · Bootstrap 5</p>
+                            </div>
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-
     <footer class="site-footer">
         <div class="container">
-            <p class="mb-0">&copy; 2026 Alexander Ogilvie. All rights reserved.</p>
+            <p class="mb-3">&copy; 2026 Alexander Ogilvie. All rights reserved.</p>
+            <div class="footer-links d-flex flex-wrap gap-3 justify-content-center"><a
+                    href="https://github.com/alex-ogilvie" target="_blank" rel="noopener noreferrer"><i
+                        class="fab fa-github me-1" aria-hidden="true"></i>GitHub</a><a href="https://www.linkedin.com/in/alexander-ogilvie-29313744b/"
+                    target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin me-1"
+                        aria-hidden="true"></i>LinkedIn</a><a href="assets/Alexander-Ogilvie-CV.pdf" download><i
+                        class="fas fa-file-arrow-down me-1" aria-hidden="true"></i>Download CV</a></div>
         </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/theme-toggle.js"></script>
 </body>
+
 </html>
