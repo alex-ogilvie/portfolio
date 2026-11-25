@@ -8,7 +8,7 @@ This website showcases my background, technical skills, and university projects,
 
 The portfolio is hosted using **GitHub Pages**.
 
-**Visit the website:** `https://alex-ogilvie.github.io/web-portfolio/`
+**Visit the website:** `https://alex-ogilvie.github.io/portfolio/`
 
 ## About Me
 
@@ -46,13 +46,13 @@ To view the portfolio on your local machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/web-portfolio.git
+   git clone https://github.com/your-username/portfolio.git
    ```
 
 2. Navigate into the project directory:
 
    ```bash
-   cd web-portfolio
+   cd portfolio
    ```
 
 3. Open `index.html` in your web browser.
@@ -94,8 +94,8 @@ portfolio/
 
 - Email: alexander.j.ogilvie@gmail.com
 - Location: Stirling, Scotland
-- LinkedIn: Add your LinkedIn profile URL
-- GitHub: Add your GitHub profile URL
+- [LinkedIn](https://www.linkedin.com/in/alexander-ogilvie-29313744b/)
+- [GitHub](https://github.com/alex-ogilvie)
 
 ---
 
